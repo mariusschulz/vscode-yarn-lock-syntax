@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "publisher": "mariusschulz",
     "license": "MIT",
+    "icon": "icons/yarn-logo-128x128.png",
     "repository": {
         "url": "https://github.com/mariusschulz/vscode-yarn-lock-syntax"
     },
