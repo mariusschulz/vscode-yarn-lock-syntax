@@ -1,0 +1,29 @@
+{
+    "name": "yarn-lock-syntax",
+    "displayName": "Syntax Highlighting for yarn.lock files",
+    "description": "Syntax highlighting for yarn.lock files",
+    "version": "0.1.0",
+    "publisher": "mariusschulz",
+    "repository": {
+        "url": "https://github.com/mariusschulz/vscode-yarn-lock-syntax"
+    },
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "yarnlock",
+            "aliases": ["yarn.lock", "yarnlock"],
+            "extensions": [".lock"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "yarnlock",
+            "scopeName": "text.yarnlock",
+            "path": "./syntaxes/yarnlock.tmLanguage.json"
+        }]
+    }
+}
