@@ -4,6 +4,7 @@
     "description": "Syntax highlighting for yarn.lock files",
     "version": "0.1.0",
     "publisher": "mariusschulz",
+    "license": "MIT",
     "repository": {
         "url": "https://github.com/mariusschulz/vscode-yarn-lock-syntax"
     },
