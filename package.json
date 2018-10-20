@@ -15,6 +15,12 @@
     "categories": [
         "Programming Languages"
     ],
+    "keywords": [
+        "yarn",
+        "yarn.lock",
+        "syntax",
+        "highlighting"
+    ],
     "contributes": {
         "languages": [{
             "id": "yarnlock",
