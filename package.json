@@ -2,7 +2,7 @@
     "name": "yarn-lock-syntax",
     "displayName": "Syntax Highlighting for yarn.lock files",
     "description": "Syntax highlighting for yarn.lock files",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "mariusschulz",
     "license": "MIT",
     "icon": "icons/yarn-logo-128x128.png",
@@ -22,16 +22,25 @@
         "highlighting"
     ],
     "contributes": {
-        "languages": [{
-            "id": "yarnlock",
-            "aliases": ["yarn.lock", "yarnlock"],
-            "extensions": [".lock"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "yarnlock",
-            "scopeName": "text.yarnlock",
-            "path": "./syntaxes/yarnlock.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "yarnlock",
+                "aliases": [
+                    "yarn.lock",
+                    "yarnlock"
+                ],
+                "extensions": [
+                    ".lock"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "yarnlock",
+                "scopeName": "text.yarnlock",
+                "path": "./syntaxes/yarnlock.tmLanguage.json"
+            }
+        ]
     }
 }
