@@ -30,7 +30,7 @@
                     "yarnlock"
                 ],
                 "extensions": [
-                    ".lock"
+                    "yarn.lock"
                 ],
                 "configuration": "./language-configuration.json"
             }
