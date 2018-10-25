@@ -2,7 +2,7 @@
     "name": "yarn-lock-syntax",
     "displayName": "Syntax Highlighting for yarn.lock files",
     "description": "Syntax highlighting for yarn.lock files",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "mariusschulz",
     "license": "MIT",
     "icon": "icons/yarn-logo-128x128.png",
