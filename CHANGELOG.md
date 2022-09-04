@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 - 2022-09-04
+
+- Added support for yarn v2 and v3 lockfile format (see [#3](https://github.com/mariusschulz/vscode-yarn-lock-syntax/pull/3))
+
 ## 0.1.3 - 2018-10-25
 
 - Updated extension to *yarn.lock* so that we no longer highlight *Gemfile.lock* files
